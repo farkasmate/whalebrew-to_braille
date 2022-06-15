@@ -4,6 +4,24 @@
 
 https://github.com/whalebrew/whalebrew#readme
 
+## Usage
+
+```shell
+$ cat example/hello_world.txt
+### ###       ##  ##            ###   ###               ##      ##
+ #   #   ###   #   #   ###       #  #  #   ###  ##  ##   #      #
+ #   #  #   #  #   #  #   #      #  #  #  #   #  # #  #  #   ## #
+ #####  #####  #   #  #   #      #  #  #  #   #  ##      #  #  ##
+ #   #  #      #   #  #   #      #  #  #  #   #  #       #  #   #
+ #   #  #   #  #   #  #   #      #  #  #  #   #  #       #  #  ##
+### ###  ###  ### ###  ###        ## ##    ###  ##      ###  ## ##
+$ cat example/hello_world.txt | to_braille
+⢹⣁⣹⠁⣔⣒⡄⢹⠀⢹⠀⡔⠒⡄⠀⠀⢹⠁⡆⢹⠁⡔⠒⡄⢲⡠⠒⠄⢹⠀⡠⢄⡏
+⠼⠄⠼⠄⠣⠤⠂⠼⠄⠼⠄⠣⠤⠃⠀⠀⠘⠤⠣⠜⠀⠣⠤⠃⠼⠀⠀⠀⠼⠄⠣⠔⠧
+```
+
+![Hello World screenshot](./examples/screenshot.png)
+
 ## Build
 
 ```shell
