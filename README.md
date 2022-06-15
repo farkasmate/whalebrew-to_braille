@@ -7,7 +7,7 @@ https://github.com/whalebrew/whalebrew#readme
 ## Build
 
 ```shell
-docker-compose build
+docker compose build
 ```
 
 ## Install

@@ -1,6 +1,8 @@
 services:
   to_braille:
     build:
+      args:
+        RUBY_VERSION: 3.1.2
       context: .
       labels:
         io.whalebrew.name: 'to_braille'
